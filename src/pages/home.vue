@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <!-- Categories Section -->
+    
     <section class="categories-section">
       <h2 class="section-title">Our Categories</h2>
       <div class="categories-grid">
@@ -18,7 +18,6 @@
       </div>
     </section>
 
-    <!-- CTA Cards -->
     <section class="cta-section " >
       <div class="cta-card">
         <div class="cta-icon">
@@ -56,7 +55,7 @@
       </div>
     </section>
 
-    <!-- Footer Partners -->
+    
     <footer class="footer">
       <div class="footer-left">
         <span>Partners: Atlas Drive, - Opportunities</span>
@@ -109,7 +108,7 @@ const categories = [
   min-height: calc(100vh - 64px);
 }
 
-/* ── Categories ── */
+
 .categories-section {
   padding: 2.5rem 2rem 1.5rem;
   max-width: 1200px;
@@ -174,7 +173,7 @@ const categories = [
   align-items: center;
 }
 
-/* ── CTA Section ── */
+
 .cta-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -253,7 +252,7 @@ const categories = [
   transform: translateY(-1px);
 }
 
-/* ── Footer ── */
+
 .footer {
   display: flex;
   align-items: center;

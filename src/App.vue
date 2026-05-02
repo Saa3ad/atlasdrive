@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <Navbar />
-    <Hero />
-    <HomePage />
+    <Hero v-if="isHome" />
+    <RouterView />
   </div>
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
-import HomePage from './pages/home.vue'
+
+const route = useRoute()
+const isHome = computed(() => route.path === '/')
 </script>
 
 <style>

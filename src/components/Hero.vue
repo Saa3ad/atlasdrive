@@ -4,7 +4,7 @@
     <div class="hero-content">
       <h1 class="hero-title">Find Your Perfect Drive</h1>
       <div class="search-bar">
-        <div class="search-field">
+        <div class="search-field" >
           <label>Pick-up Location</label>
           <div class="input-wrapper">
             <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
