@@ -34,7 +34,7 @@
           <p class="cta-subtitle">Create Client Account (User)</p>
           <p class="cta-benefits">Benefits: changulices and friends</p>
         </div>
-        <button class="btn-cta">Create Client Account (User)</button>
+        <RouterLink to="/register" class="btn-cta">Create Client Account (User)</RouterLink>
       </div>
 
       <div class="cta-card">
@@ -51,7 +51,7 @@
           <p class="cta-subtitle">Register Your Agency (Agence)</p>
           <p class="cta-benefits">Benefits: building profits, and corporates</p>
         </div>
-        <button class="btn-cta">Register Your Agency (Agence)</button>
+        <RouterLink to="/register" class="btn-cta">Register Your Agency (Agence)</RouterLink>
       </div>
     </section>
 
@@ -73,6 +73,7 @@
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router';
 const categories = [
   {
     name: 'Luxury',

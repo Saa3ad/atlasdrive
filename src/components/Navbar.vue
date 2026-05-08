@@ -27,9 +27,9 @@
     </ul>
 
     <!-- Login Button -->
-    <button class="sora bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm px-5 py-2 rounded-lg border-none cursor-pointer transition-all duration-200 hover:-translate-y-px">
+    <RouterLink to="/login" class="sora bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm px-5 py-2 rounded-lg border-none cursor-pointer transition-all duration-200 hover:-translate-y-px">
       Log In
-    </button>
+    </RouterLink>
 
   </nav>
 </template>
